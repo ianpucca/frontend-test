@@ -1,7 +1,7 @@
 # frontend-test
 Resolução da avaliação para Front-end developer aplicado pela Codeminer42
 
---
+-
 
 Para visualizar, basta abrir o arquivo index.html no navegador.
 
