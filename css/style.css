@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Fresca', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+.row {
+ 	display: flex;
+	justify-content: center;
+	align-items: center; 	
+}
+
+.item {
+	background-image: url("../image/card-background.png");
+	background-size: 80px;
+	color: black;
+	width: 80px;
+	height: 111px;
+	margin: 5px 10px;
+	border-radius: 4px;
+}
+
+.item img {
+	width: 100%;
+}
+
+.btn1, .btn2, .btn3 {
+	box-sizing: border-box;
+ 	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	cursor: pointer;
+	background: black;
+	border: 1px solid black;
+	border-radius: 25px;
+	color: white;
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover  {
+	border: 2px solid black;
+	border-radius: 20px;
+	background: white;
+	color: black;
+}
+
+.resultado {
+	max-width: 200px;
+}
+
+.button {
+	text-align: center;
+	margin: 10px auto;
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+	width: 100%;
+	max-width: 180px;
+}
+
+.button:hover {
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+
+.margin {
+	margin-top: 10px;
+}
+
+.mtop-10 {
+	margin-top: 10px;
+}
+
+.dnone {
+	display: none;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+
+#contagem {
+	margin-bottom: 5px;
+}
+
+#jogarnovamente {
+	display: none;
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		align-items: baseline;
+		flex-direction: row;
+		margin-top: 20px;    
+	}
+	.row {
+		flex-direction: column;
+	}
+	.btn1, .btn2, .btn3 {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.btn1:hover, .btn2:hover, .btn3:hover  {
+		border: 1px solid black;
+		border-radius: 25px;
+		background: black;
+		color: white;
+	}	
+	.margin {
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+	.click {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.hidden-xs {
+		display: none;
+	}
+}
